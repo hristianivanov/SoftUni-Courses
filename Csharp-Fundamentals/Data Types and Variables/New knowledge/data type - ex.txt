@@ -1,0 +1,28 @@
+char -> integer
+int.Parse( charArray[index].ToString() ) ; // int.Parse wants string not char
+
+string -> integer
+int.Parse( input[index].ToString() ) ;
+
+cast - converting type with brackets infront of the value name // example: int num...   (double)num
+
+[ ] Typization for arrays // типизация
+
+When collect int sum with any char he analyze to use AsCii table for chars // int result += char ;
+
+Type Unification / Унифициране - using same things for all Pcs
+Did space can be done with escaping?!?!? - No , idk
+
+Undefined - setting a data without a value // char something;
+
+int num = 0;
+DataType.TryParse(input,out num) // TryParse(String, Int32)
+
+Constants' name need to be CAPSLOCKED and _ for space  // according to the World Convention
+
+Biginteger data type wants System.Numerics colection
+
+
+ int input = 23;  
+ bool isDigit = int.TryParse(input.ToString(),out int digit); // checks is it integer and return it what u want
+ Console.WriteLine(digit);  // out : 23

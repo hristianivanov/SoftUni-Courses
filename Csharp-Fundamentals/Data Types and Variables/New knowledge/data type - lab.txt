@@ -1,0 +1,38 @@
+CTRL + . + ENTER  // seeing for using collection  
+PascalCase - LastName ; CamelCase - lastName // just a example
+const int piNumber = 3.14;
+SCOPE -  where you can access a variable, LIFETIME - how long a variable stays in memory, 
+SPAN OF THE CODE - how long before a variable is called
+Overflowing types - when you reach the max value of the type it becomes 0/minValue like speedmeter.
+You can type values like that : string name = "", lastName = "";
+You can make this : int num = 3_000_000;
+Literals - byte,sbyte(sign '-') ; short,ushort(unsign '-') ; int,uint ; long,unlong // INTEGER TYPES
+// FLOATING-POINT TYPEs
+float - precision of 7 digits after the floating point ;   
+double - precision of 15-16 digits after the floating point  
+decinal - precision of 28-29 digits after the floating point ; the suffix - 0.0M// 128 bit  
+double.Negative/PositiveInfinity
+// Converting Data Types
+Implicit and Explicit
+implicit - from smaller to bigger and don't lose information
+explicit - from bigger type to smaller type // when you lose precision 
+
+You can cast whole math operation : int days = (int)(years * 365.2422);
+
+Ascii Table - table for every letter in Latinic Alphabet 
+Unicode Table - table for every Alphabet letter in world
+- Every letter/sign have a code (specific number)
+
+Escaping characters
+\n (new line)
+\t (tabulation make space like [TAB] for VS equals 4) example : "some\tapples" = some....apples (. = ' ')
+and more...
+
+Strings
+verbatim(no escaping) string file = @"C:\Windows\win.ini";
+Also you can use verbatim (@) with interpulation ($) = $@"C:/{os}\{file}";
+
+
+Concatenation/Interpolation/Placeholder
+Default literals  for - integers = int , floating-point types = double 
+underscore вместо  private

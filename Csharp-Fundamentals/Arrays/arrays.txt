@@ -1,0 +1,5 @@
+Split(StrigSplitOptions.RemoveEmptyEntries)
+
+Midpoint Rounding option in Math.Round()  https://docs.microsoft.com/en-us/dotnet/api/system.midpointrounding?view=net-6.0
+
+https://visualgo.net/en       // methods visualizing website

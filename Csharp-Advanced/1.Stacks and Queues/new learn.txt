@@ -1,0 +1,14 @@
+Stack - LIFO (last in, first out)
+Abstract Data Structure/Type //that means had methods - Push,Pop,Peek according to the program language
+Push: insert an element at the top of the stack
+Pop: take the element from the top of the stack
+Peek: retrieve the topmost element without removing it
+
+
+Queue - FIFO (first in, first out)
+Enqueue: append an element at the end of the queue
+Dequeue: remove the first element from the queue
+Peek: retrieve the first element of the queue 
+without removing it
+
+while(songsQueue.Any() / songsQueue.Count > 0)

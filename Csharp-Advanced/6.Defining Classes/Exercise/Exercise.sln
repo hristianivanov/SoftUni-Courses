@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Define a Class Person", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Creating Constructors", "2. Creating Constructors\2. Creating Constructors.csproj", "{1C3A5789-C40F-4568-A6FE-5240C4E8ADBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Oldest Family Member", "3. Oldest Family Member\3. Oldest Family Member.csproj", "{0317E36C-491B-4E79-8DD1-782CC879E9C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Oldest Family Member", "3. Oldest Family Member\3. Oldest Family Member.csproj", "{0317E36C-491B-4E79-8DD1-782CC879E9C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Opinion Poll", "4. Opinion Poll\4. Opinion Poll.csproj", "{833C5C34-DB4C-4EA5-A8C7-A9418A199E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Opinion Poll", "4. Opinion Poll\4. Opinion Poll.csproj", "{833C5C34-DB4C-4EA5-A8C7-A9418A199E86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.DateModifier", "5.DateModifier\5.DateModifier.csproj", "{82D4F7B6-3398-417C-9E67-940222618BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.SpeedRacing", "6.SpeedRacing\6.SpeedRacing.csproj", "{ACC34466-A9BB-415F-9149-5895A6DDB950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.SpeedRacing", "6.SpeedRacing\6.SpeedRacing.csproj", "{ACC34466-A9BB-415F-9149-5895A6DDB950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.RawData", "7.RawData\7.RawData.csproj", "{25592D48-2B4C-46A2-927E-A0B5812587B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.RawData", "7.RawData\7.RawData.csproj", "{25592D48-2B4C-46A2-927E-A0B5812587B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.CarSalesman", "8.CarSalesman\8.CarSalesman.csproj", "{F5C3EB9B-1A09-4CE2-AF51-D107ED0DC249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.CarSalesman", "8.CarSalesman\8.CarSalesman.csproj", "{F5C3EB9B-1A09-4CE2-AF51-D107ED0DC249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PokemonTrainer", "9.PokemonTrainer\9.PokemonTrainer.csproj", "{D6BED9CE-43FA-4F07-96F5-F642A7E1BAEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.PokemonTrainer", "9.PokemonTrainer\9.PokemonTrainer.csproj", "{D6BED9CE-43FA-4F07-96F5-F642A7E1BAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.SoftUniParking", "10.SoftUniParking\10.SoftUniParking.csproj", "{1A7FD39D-8F62-40D4-ADF4-919AC01DD0CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D6BED9CE-43FA-4F07-96F5-F642A7E1BAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6BED9CE-43FA-4F07-96F5-F642A7E1BAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6BED9CE-43FA-4F07-96F5-F642A7E1BAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7FD39D-8F62-40D4-ADF4-919AC01DD0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7FD39D-8F62-40D4-ADF4-919AC01DD0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7FD39D-8F62-40D4-ADF4-919AC01DD0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7FD39D-8F62-40D4-ADF4-919AC01DD0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

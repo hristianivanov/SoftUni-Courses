@@ -9,56 +9,70 @@ namespace _9.PokemonTrainer
     {
         static void Main(string[] args)
         {
-            //"{trainerName} {pokemonName} {pokemonElement} {pokemonHealth}"
             string lines = string.Empty;
-
-            List<Trainer> trainers = new List<Trainer>();
+            Dictionary<string, Trainer> kvp = new Dictionary<string, Trainer>();
             while ((lines = Console.ReadLine()) != "Tournament")
             {
                 string[] splitted = lines.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                string trainerName = splitted[0];
-
-                trainers.Add(GetData(splitted));
-
+                GetData(kvp, splitted);
             }
             string command = string.Empty;
-            while ((command=Console.ReadLine())!="End")
+            while ((command = Console.ReadLine()) != "End")
             {
                 switch (command)
                 {
                     case "Fire":
                     case "Water":
                     case "Electricity":
-                       bool check =  trainers.Any(trainer => trainer.Pokemons.Any(pokemon=>pokemon.Element==command));
-                        if (check)
-                        {
-                            trainers.ForEach(trainer => trainer.AddBadge(command));
-                        }
-                        else
-                        {
-                            trainers.ForEach(trainer => trainer.Damage());
-                        }
+                        kvp = AddBadgeOrDamage(kvp, command);
                         break;
                 }
 
             }
-            foreach (var trainer in trainers.OrderByDescending(t=>t.BadgeCnt))
-            {
-                Console.WriteLine($"{trainer.Name} {trainer.BadgeCnt} {trainer.Pokemons.Count}");
-            }
 
+            foreach (var item in kvp.Values.OrderByDescending(t => t.BadgeCnt))
+            {
+                Console.WriteLine($"{item.Name} {item.BadgeCnt} {item.Pokemons.Count}");
+            }
         }
-        public static Trainer GetData(string[] splitted)
+
+        private static void GetData(Dictionary<string, Trainer> kvp, string[] splitted)
         {
             string trainerName = splitted[0];
             string pokemonName = splitted[1];
             string pokemonElement = splitted[2];
             int pokemonHealth = int.Parse(splitted[3]);
-
-            Trainer trainer = new Trainer(trainerName);
             Pokemon pokemon = new Pokemon() { Name = pokemonName, Element = pokemonElement, Health = pokemonHealth };
-            trainer.Pokemons.Add(pokemon);
-            return trainer;
+            if (kvp.ContainsKey(trainerName))
+            {
+                kvp[trainerName].Pokemons.Add(pokemon);
+            }
+            else
+            {
+                Trainer trainer = new Trainer(trainerName,pokemon);
+                kvp.Add(trainerName, trainer);
+            }
+        }
+
+        private static Dictionary<string, Trainer> AddBadgeOrDamage(Dictionary<string, Trainer> kvp, string command)
+        {
+            foreach (var item in kvp.Values)
+            {
+                if (item.Pokemons.Any(p => p.Element == command))
+                {
+                    item.BadgeCnt++;
+                    continue;
+                }
+                else
+                {
+                    item.Pokemons.ForEach(pokemon => pokemon.Health -= 10);
+                    if (item.Pokemons.Any(pokemon => pokemon.Health <= 0))
+                    {
+                        item.Pokemons = item.Pokemons.Where(pokemon => pokemon.Health > 0).ToList();
+                    }
+                }
+            }
+            return kvp;
         }
     }
 }

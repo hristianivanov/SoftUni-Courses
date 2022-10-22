@@ -8,28 +8,6 @@ namespace EnergyDrinks
     {
         static void Main(string[] args)
         {
-            //maximum caffeine Stamat can have for the night is 300 milligrams
-            //initial is always 0.
-
-            //take the last milligrams of caffeinе and
-            //the first energy drink, and multiply them.
-
-
-            //•	If the sum of the caffeine in the drink and the caffeine that Stamat drank doesn't exceed 300 milligrams,
-            //remove both the milligrams of caffeinе and the drink from their sequences.
-            //Also, add the caffeine to Stamat's total caffeine.
-
-
-            //•	If Stamat is about to exceed his maximum caffeine per night, do not add the caffeine
-            //to Stamat’s total caffeine. Remove the milligrams of caffeinе and move the drink
-            //to the end of the sequence. Also, reduce the current caffeine
-            //that Stamat has taken by 30 (Note: Stamat's caffeine cannot go below 0).
-
-            //Stop calculating when you are out of drinks or milligrams of caffeine.
-
-
-
-
             const int MAXIMUM_DRINKING = 300;
             
             Stack<int> caffeinе = new Stack<int>(Console.ReadLine().Split(", ",StringSplitOptions.RemoveEmptyEntries).Select(int.Parse));

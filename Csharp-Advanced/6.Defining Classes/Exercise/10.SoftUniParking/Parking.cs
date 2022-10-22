@@ -18,7 +18,7 @@ namespace SoftUniParking
 
         public string AddCar(Car car)
         {
-            if (cars.Any(c => c.RegistrationNumber==car.RegistrationNumber))
+            if (cars.Any(c => c.RegistrationNumber == car.RegistrationNumber))
                 return "Car with that registration number, already exists!";
             if (cars.Count + 1 > capacity)
                 return "Parking is full!";

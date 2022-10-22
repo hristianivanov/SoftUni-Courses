@@ -11,4 +11,4 @@ Dequeue: remove the first element from the queue
 Peek: retrieve the first element of the queue 
 without removing it
 
-while(songsQueue.Any() / songsQueue.Count > 0)
+while(songsQueue.Any() / songsQueue.Count > 0) // check whether collection have values

@@ -22,7 +22,7 @@ namespace EnergyDrinks
 
                 sum = currCaffeine * currDrink;
 
-                if (total+sum<=MAXIMUM_DRINKING) // = ?
+                if (total+sum<=MAXIMUM_DRINKING)
                 {
                     total += sum;
                 }

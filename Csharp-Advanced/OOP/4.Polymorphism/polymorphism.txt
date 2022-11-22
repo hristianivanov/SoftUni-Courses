@@ -1,0 +1,56 @@
+ConsoleColor color = (ConsoleColor)Enum.Parse( typeof(ConsoleColor), Console.ReadLine() );
+// gets console color form the console
+
+Console.SetCoursorPossition
+
+Полиморфизъм - възможността на една и съща променлива на един и същи код да възприема много форми
+свойството на обекти да заемат много форми т.е. да работим с абстракция, винаги да работим с абстракция,
+а по време на изпълнение на програмата, компилатора да решава кои конкретни имплементации да използва
+
+compile-time/static polymorphism/ method overloading - извикването на методи с едни и същи имена, 
+но с различни параметри
+
+runtime/dynamic polymorphism
+
+
+
+if(shape is Circle)
+   ((Circle)shape).HiCircle();
+
+if (shape is Circle circle)
+   circle.HiCircle();
+
+vij explicit casting na nasledeni clasove, koga e nujno da kastvash i zapishi
+
+razberi razlikata mejdu AS IS
+
+is proverqva tipove a ne stoinosti
+
+
+IS KEYWORD
+
+you can check value of constants 
+
+const int max = 10; int min = 0;
+if(num is max or min) {...}
+
+VARPATERN 
+
+when you need to calculate someting in bool expression
+
+you can ddo it like that:
+
+int number = 4;
+Console.WriteLine( number + 10 is var/int result && result > 15); // false
+
+number + 10 is int result  // defines variable ,gives always true 
+
+
+CLR - common language runtime
+
+Struct vs Class
+struct holds only value types // copies all not the reference
+class copies the reference
+
+
+event handler look at the endd of the lecture

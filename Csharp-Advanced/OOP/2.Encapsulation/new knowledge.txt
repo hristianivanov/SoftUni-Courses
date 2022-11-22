@@ -1,0 +1,45 @@
+Encapsulation - process of wrapping code and data together into a single unit
+
+This give us:
+-Flexibility and extensibility of the code
+-Reduces complexity
+-Structural changes remain local
+-Allows validation and data binding
+
+Fields should be private
+Properties should be public
+
+
+Keyword this:
+-reference to the current object
+-refers to the current instance of the class
+-can be passed as a parameter to other methods
+-can be returned from method
+-can invoke current class methods
+
+
+Access Modifiers:
+public, private, internal, protected
+
+
+Mutable vs Immutable Objects
+
+Mutable objects are changeable, because use the same memory location // StringBuilder, List
+Immutable objects are unchangeable (read-only), because create new memory every time they're modified // Tuple, string
+
+
+Mutable Fields - property with its field with only getter
+Immutable Fields - the difference is that the property type is IReadOnlyCollection<T> { get => collection.AsReadOnly(); }
+
+
+private -> visible only in the current class, least visual (higher encapsulation)
+protected -> visiuble only in the inherited members
+internal -> visible only in the current assembly
+public -> visible in the whole solution (most visual, lowest encapsulation)
+
+Fields -> private
+Ctors -> private (ctor chaining), protected (inheritance), public
+Properties -> public (get, set -> private, protected)
+Methods -> private, protected, public
+
+Validation -> get (just return the value of a field), set (validate the value), methods (additional validations)

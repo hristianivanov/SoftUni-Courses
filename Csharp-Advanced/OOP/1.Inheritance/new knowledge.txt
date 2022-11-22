@@ -1,0 +1,33 @@
+Superclass - Parent/Base class 
+The class giving its members to its child class
+
+Subclass - Child/Derived class
+The class taking members from its base class
+
+Constructors are not inherited
+They can be reused by the child classes with keyword "base"
+
+In C# there is no multiple inheritance
+Only multiple interfaces can be implemented
+
+Virtual - defines a method that can be overriden in child class
+
+The sealed modifier prevents other classes from inheriting from it
+You can use the sealed modifier on a method,property in a base class.
+
+
+Composition (HAS-A relation)
+- using classes to define classes
+
+
+Composition (IS-A relation)
+- inheriting class
+
+All classes in C# inherit the Object class and therefore 
+have all its public members :
+-ToString() 
+-Equals()
+-GetHashCode()
+-ToString()
+
+

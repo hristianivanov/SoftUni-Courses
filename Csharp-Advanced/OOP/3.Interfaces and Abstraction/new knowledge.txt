@@ -1,0 +1,38 @@
+Abstraction vs Encapsulation
+
+Abstraction - process of hiding the implementation details and showing only 
+functionality to the user. Achieved with interfaces and abstract classes
+
+Encapsulation - used to hide the code and data inside a single unit 
+to protect the data from the outside world. Achieved with access modifiers (private, protected, public … )
+
+
+Interface - contains signatures of methods 
+(in C# 8.0 interfaces could have a default implementation), properties, events or indexers
+
+Abstract class - can't be instantiated, may contain abstract methods and accessors and
+must provide implementation for all inherited interface members
+
+
+Interface vs Abstract Class 
+
+Interface
+- A class may implement several interfaces
+- Can't have access modifiers, everything is assumed as public
+- Can't provide any code, just the "SIGNATURE"
+- Fields and constants can't be defined
+- If we add a new method we have to track down all the implementations of the interface
+and define implementation for the new method
+
+
+Abstract Class (AC)
+-May inherit only one abstract class
+- Can provide implementation and/or just the signature that have to be overridden
+- Can contain access modifiers for the fields, functions, properties
+- Fields and constants can be defined
+- If we add a new method we have the option of providing default implementation and 
+therefore all the existing code might work properly
+
+
+
+

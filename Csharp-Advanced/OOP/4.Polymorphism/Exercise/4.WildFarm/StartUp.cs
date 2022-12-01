@@ -1,4 +1,4 @@
-﻿namespace VehiclesExtension
+﻿namespace WildFarm
 {
     using Core;
     using Core.Interfaces;

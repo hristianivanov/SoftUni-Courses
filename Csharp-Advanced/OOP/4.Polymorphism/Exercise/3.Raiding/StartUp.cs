@@ -1,4 +1,4 @@
-﻿namespace VehiclesExtension
+﻿namespace Raiding
 {
     using Core;
     using Core.Interfaces;

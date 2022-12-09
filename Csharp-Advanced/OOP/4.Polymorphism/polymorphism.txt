@@ -24,10 +24,9 @@ vij explicit casting na nasledeni clasove, koga e nujno da kastvash i zapishi
 
 razberi razlikata mejdu AS IS
 
-is proverqva tipove a ne stoinosti
-
-
 IS KEYWORD
+
+check data type NOT data value
 
 you can check value of constants 
 
@@ -53,4 +52,4 @@ struct holds only value types // copies all not the reference
 class copies the reference
 
 
-event handler look at the endd of the lecture
+event handler look at the end of the lecture

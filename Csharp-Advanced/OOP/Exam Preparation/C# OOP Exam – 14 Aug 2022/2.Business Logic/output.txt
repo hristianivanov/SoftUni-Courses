@@ -1,0 +1,26 @@
+Successfully added Planet: Zomitune
+Successfully added Planet: Cippe-C77T
+Successfully added Planet: Xunrichi
+Planet Dotrienides does not exist!
+SpaceForces added successfully to the Army of Zomitune!
+SpaceForces already added to the Army of Zomitune!
+Xunrichi purchased SpaceMissiles!
+Xunrichi purchased BioChemicalWeapon!
+Budget too low!
+Destruction level cannot exceed 10 power points.
+Cippe-C77T purchased NuclearWeapon!
+Zomitune has upgraded its forces!
+Budget too low!
+StormTroopers added successfully to the Army of Xunrichi!
+Xunrichi destructed Zomitune!
+***UNIVERSE PLANET MILITARY REPORT***
+Planet: Cippe-C77T
+--Budget: 255 billion QUID
+--Forces: No units
+--Combat equipment: NuclearWeapon
+--Military Power: 14.5
+Planet: Xunrichi
+--Budget: 157.91 billion QUID
+--Forces: StormTroopers
+--Combat equipment: SpaceMissiles, BioChemicalWeapon
+--Military Power: 9

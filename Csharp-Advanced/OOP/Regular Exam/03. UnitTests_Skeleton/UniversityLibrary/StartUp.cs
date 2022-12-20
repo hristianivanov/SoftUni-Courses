@@ -1,11 +1,10 @@
-﻿namespace AuthorProblem
+﻿namespace UniversityLibrary
 {
-    [Author("Victor")]
     public class StartUp
     {
-        [Author("George")]
         static void Main(string[] args)
         {
+            
         }
     }
 }

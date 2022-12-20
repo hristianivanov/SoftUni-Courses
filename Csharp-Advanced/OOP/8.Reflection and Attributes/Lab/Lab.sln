@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Stealer", "1.Stealer\1.St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.High-QualityMistakes", "2.High-QualityMistakes\2.High-QualityMistakes.csproj", "{E5C951FC-5D20-49B5-A38C-8F4BE4266253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.MissionPrivateImpossible", "3.MissionPrivateImpossible\3.MissionPrivateImpossible.csproj", "{B8F6E86D-264B-4C8A-B67D-C78BBFD468B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.MissionPrivateImpossible", "3.MissionPrivateImpossible\3.MissionPrivateImpossible.csproj", "{B8F6E86D-264B-4C8A-B67D-C78BBFD468B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Collector", "4.Collector\4.Collector.csproj", "{B3AC08A8-87A3-4A4E-8A39-964C8A985607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Collector", "4.Collector\4.Collector.csproj", "{B3AC08A8-87A3-4A4E-8A39-964C8A985607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CreateAttribute", "5.CreateAttribute\5.CreateAttribute.csproj", "{C5C16A31-C67F-4A7F-BF57-A44B000CD969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.CreateAttribute", "5.CreateAttribute\5.CreateAttribute.csproj", "{C5C16A31-C67F-4A7F-BF57-A44B000CD969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.CodeTracker", "6.CodeTracker\6.CodeTracker.csproj", "{17012439-2FC3-4960-AD2E-6BA02A00AC04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.CodeTracker", "6.CodeTracker\6.CodeTracker.csproj", "{17012439-2FC3-4960-AD2E-6BA02A00AC04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,11 +4,13 @@
     {
         public const string SubjectTypeNotSupported = "Subject type {0} is not available in the application!";
 
+        public const string AlreadyAdded = "{0} {1} is already added in the repository.";
+
         public const string AlreadyAddedStudent = "{0} {1} is already added in the repository.";
 
-	  public const string AlreadyAddedSubject = "{0} is already added in the repository.";
+        public const string AlreadyAddedSubject = "{0} is already added in the repository.";
 
-	  public const string AlreadyAddedUniversity = "{0} is already added in the repository.";	
+        public const string AlreadyAddedUniversity = "{0} is already added in the repository.";
 
         public const string SubjectAddedSuccessfully = "{0} {1} is created and added to the {2}!";
 

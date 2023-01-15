@@ -1,0 +1,7 @@
+Streams are ordered sequences of bytes
+Operations: open  read / write  close
+Always close streams with try-finally or using(…)
+Use StreamReader / StreamWriter for text data
+Use FileStream to read / write binary files
+Use the File class to read / write files at once
+Use the Directory class to work with directories

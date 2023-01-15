@@ -1,0 +1,15 @@
+Dictionaries
+keys are unique
+.ContainsKey(key) – fast!
+.ContainsValue(value) – slow!
+
+Multi-Dictionaries - dictionaries holding a List of Values
+Nested Dictionaries - dictionaries holding Other dictionaries
+
+Sets in C# 
+keeps unique elements
+very fast performance
+elements are in no particular order
+fast "add", "search" and "remove" 
+no duplicates are allowed
+

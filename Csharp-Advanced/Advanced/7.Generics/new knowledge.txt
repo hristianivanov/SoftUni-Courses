@@ -1,0 +1,10 @@
+Generic Constraints 
+
+
+Generics add type safety
+Generic code is more reusable
+Classes, interfaces and methods can be generic
+Generic Constraints can validate generic types
+
+Constraints are represented in generics using where
+public class/method/constructor Example<T> where T : class/struct/other class/new()

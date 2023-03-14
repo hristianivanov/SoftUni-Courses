@@ -1,0 +1,4 @@
+se izpolzva kogato iskame da izvlichame, da postavqme yslovie, da sortirame ili grupirame po koloni koito sa
+v razichni tablici zaz tazi cel tablcite se saedinqvat chrez izpolzvane na klauzata join 
+kato se poluchava nova tablica koqto ima tolkova koloni kolkoto e sbora na purvonachalnite tablici kato redove v rezultantnata
+tablica ostavat samo onezi pri koito imame ravni stoinosti v poletata koito sa svurzani 

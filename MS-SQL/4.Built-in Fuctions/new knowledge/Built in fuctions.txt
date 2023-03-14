@@ -1,0 +1,2 @@
+Trim('(character)' FROM column_name)
+Stuff('(column_name)',start_index,delete_count,replace_string)

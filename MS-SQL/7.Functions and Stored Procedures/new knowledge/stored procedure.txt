@@ -1,0 +1,18 @@
+begin and - block of code
+
+udf (user define function)
+
+sp(stored procedure)
+
+when you use user defining function to call the function you need to type first the scheme
+(def scheme is dbo) example : dbo.udf_functionName(functionParams...)
+
+scalar function returns variable
+while table valued function returns table
+
+in table value function you can have it without parameters
+
+usp (user stored procedure)
+
+CREATE OR ALTER
+proc with param does not want bracekts

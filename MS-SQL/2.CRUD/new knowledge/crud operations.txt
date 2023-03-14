@@ -1,0 +1,24 @@
+ctrl+alt+r // refresh the cashe
+
+as - alias
+are not <>
+
+when you have to check null do this:
+manager_id is null // because manager_id = null always is false
+
+insert into <table_name> (<column_name>, ...) 
+	select <something> from <another_table>
+
+select <column_name>, <another_column_name> ... 
+	into <absolute_new_table_name>
+	from <table_name>
+
+GETDATE() // gives date.now 
+
+BEGIN TRANSACTION 
+ROLLBACK TRANSACTION
+COMMIT TRANSACTION
+
+SET IDENTITY_INSERT Towns ON
+
+ISNULL(MiddleName, '')

@@ -1,0 +1,6 @@
+HAVING block is after WHERE, GROUP BY , but before ORDER BY
+
+you can save ur information into another table  with INTO clause 
+// SELECT * INTO (...) FROM (...)
+
+You can have select query into JOIN block getting the need information

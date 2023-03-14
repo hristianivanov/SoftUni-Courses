@@ -7,6 +7,14 @@
 
     public class Spy
     {
+        public string GetMethodType(string className, string MethodName)
+        {
+            Type classType = Type.GetType(className);
+            FieldInfo[] fields = classType.GetFields(BindingFlags.Public | BindingFlags.Instance);
+            MethodInfo method = classType.GetMethod(MethodName);
+
+            return method.GetType().ToString();
+        }
         public string StealFieldInfo(string className, params string[] fieldsToInvestigate)
         {
             StringBuilder sb = new StringBuilder();

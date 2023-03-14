@@ -1,0 +1,21 @@
+SQL (structure quary language)
+
+бд - организирана колекция от данни
+всяка една бд налага определени правила за съхранение на данните, някои от тях по-строги други мъгляви
+
+RDBMS (Realational Data Base Management System)
+TSQL (transaction)
+
+when you had wrong collation:
+COLLATE Cyrillic_General_CI_AS // or use @
+
+GO // use without ;
+- изчаква да свърши patch, ще продължи когато приключи командата над него
+
+на sql не му пука за малки и главни букви за имената
+create database minions/MINIONS are the same
+
+keyword
+[] in this brackets you specify that is name of something escaping special keywords
+
+check(len(name) => 2)

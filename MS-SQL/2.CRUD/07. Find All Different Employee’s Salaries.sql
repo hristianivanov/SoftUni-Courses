@@ -1,3 +1,0 @@
---7
-SELECT DISTINCT Salary
-FROM Employees

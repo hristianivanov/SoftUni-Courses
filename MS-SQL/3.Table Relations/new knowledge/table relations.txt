@@ -1,0 +1,38 @@
+alias 'AS'
+
+directive and transitive dependency
+
+guid (globally unique identifier)
+
+primary key by default is not null and unique
+Composite PK -> { PK1, PK2}
+
+sql script
+
+Each table in db can be called entity
+
+foreign keys can have null/not null constraint but depends on the situation
+
+Mapping table - connects PKs from tables, usually this is for many-to-many table relation.
+It had composit PK (first_table_PK, second_table_PK) // UNIQUE, NOT NULL
+It has the primary keys from other tables but for its the keys are foreign.
+At least the mapping table had 2 FK.
+Mapping table is way to create relation between the tables
+
+The idea of creating table is not to make redundancies
+
+E/R Diagram (Entity Relation Diagram)
+
+The difference between LEFT/RIGHT JOIN and only JOIN is that JOIN doesn't display 
+the results of search by the condition we want which had any information in some column -> null
+
+You have to use ALIAS when you had duplicate names from tables' column
+
+SET IDENTITY_INSERT [ [ database_name . ] schema_name . ] table_name { ON | OFF } 
+
+datetime2 vs datetime - the difference is that datetime data type had more precision especially in time hh:mm:ss:[.n] // up to 7
+
+TCL (Transaction Control Language)
+DML (Data Manipulation Language)
+DCL (Data Control Language)
+DDL (Data Definition Language)

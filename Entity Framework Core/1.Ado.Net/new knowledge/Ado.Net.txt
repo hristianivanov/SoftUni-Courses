@@ -1,0 +1,6 @@
+*versions before .Net 6
+def object .ToString() return object 
+So don't use .ToString() on object type instead use casting 
+
+T-SQL ROW_NUMBER() returns BigInt 64bit 
+so you need to cast it to long type 

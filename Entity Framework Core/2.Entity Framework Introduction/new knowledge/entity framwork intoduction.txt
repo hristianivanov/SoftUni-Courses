@@ -1,0 +1,20 @@
+Scaffold -> Generate C# classes based on existing DB 
+
+to use provider -> Ef.SqlServer
+
+to use commands -> Ef.Design
+
+// this needs Ef.Tools
+Package Manager Console:
+Add-Migration // Initial
+Drop-Database
+Get-DbContext
+
+Scaffold-DbContext <conn_string> Microsoft.EntityFrameworkCore.SqlServer
+/* optional after that flags : 
+-o Data //that means will put the models in data folder
+-d // if you want to use DataAnnotations 
+*/
+
+Script-Migrations
+Update-Database

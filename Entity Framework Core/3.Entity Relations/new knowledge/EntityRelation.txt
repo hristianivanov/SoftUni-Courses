@@ -1,0 +1,13 @@
+Fluent API -< all is configured in DbContext
+DataAnnotations -> most of the things are configured in the Entity class using attributes
+Real Project -> FluentA API + DataAnnotations
+
+Naming project/class library "App.Data" -> Database connection and modeling
+
+All Entity classes have to be public 
+
+GUID -> globally unique Id
+
+EF does not us SQL TYPES like: DATETIME, MONEY
+
+Navigation properties have to be virtual 

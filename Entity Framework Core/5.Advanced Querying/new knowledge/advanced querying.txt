@@ -1,0 +1,1 @@
+int? is not int , so when you want to get the value -> valueName.Value

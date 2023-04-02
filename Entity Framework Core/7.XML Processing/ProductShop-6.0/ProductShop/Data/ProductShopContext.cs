@@ -15,10 +15,10 @@
         {
         }
 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<CategoryProduct> CategoryProducts { get; set; }
+        public DbSet<Category> Categories { get; set; } = null!;
+        public DbSet<Product> Products { get; set; } = null!;
+        public DbSet<User> Users { get; set; } = null!;
+        public DbSet<CategoryProduct> CategoryProducts { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,11 +39,13 @@
             {
                 entity.HasMany(x => x.ProductsBought)
                       .WithOne(x => x.Buyer)
-                      .HasForeignKey(x => x.BuyerId);
+                      .HasForeignKey(x => x.BuyerId)
+                      .OnDelete(DeleteBehavior.NoAction);
 
                 entity.HasMany(x => x.ProductsSold)
                       .WithOne(x => x.Seller)
-                      .HasForeignKey(x => x.SellerId);
+                      .HasForeignKey(x => x.SellerId)
+                      .OnDelete(DeleteBehavior.NoAction);
             });
         }
     }

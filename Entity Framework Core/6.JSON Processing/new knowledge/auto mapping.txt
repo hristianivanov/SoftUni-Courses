@@ -1,0 +1,3 @@
+DTO - dernormalize some things, remove unneccessary properties
+(Data transfer object)
+

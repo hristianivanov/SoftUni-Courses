@@ -1,10 +1,4 @@
-﻿//Напишете C# конзолна програма, която отпечатва числата от 1 до 10 на отделни редове на конзолата.
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace Presentation
 {

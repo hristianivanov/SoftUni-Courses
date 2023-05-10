@@ -1,17 +1,14 @@
-﻿//Първата задача от тази тема е да се напише конзолна програма, която чете оценка (дробно число),
-//въведена от потребителя и отпечатва "Excellent!", ако оценката е 5.50 или по-висока.
+﻿using System;
 
-using System;
-
-    internal class Program
+internal class Program
+{
+    static void Main()
     {
-        static void Main()
-        {
-            double grade = double.Parse(Console.ReadLine());
+        double grade = double.Parse(Console.ReadLine());
 
-            if (grade >= 5.50)
-            {
-                Console.WriteLine("Excellent!");
-            }
+        if (grade >= 5.50)
+        {
+            Console.WriteLine("Excellent!");
         }
     }
+}

@@ -1,9 +1,4 @@
-﻿//Напишете програма която проверява всички възможни комбинации от двойка числа в интервала от две дадени числа.
-//На изхода се отпечатва, коя поред е комбинацията чиито сбор от числата е равен на дадено магическо число.
-//Ако няма нито една комбинация отговаряща на условието се отпечатва съобщение, че не е намерено.
-
-using System;
-
+﻿using System;
 
 internal class Program
 {
@@ -30,7 +25,9 @@ internal class Program
             }
             if (isFound) break;
         }
-        if (!isFound) Console.WriteLine($"{comboNumber} combinations - neither equals {magic}");
-        else Console.WriteLine($"Combination N:{comboNumber} ({low} + {high} = {magic})");
+        if (!isFound) 
+            Console.WriteLine($"{comboNumber} combinations - neither equals {magic}");
+        else
+            Console.WriteLine($"Combination N:{comboNumber} ({low} + {high} = {magic})");
     }
 }

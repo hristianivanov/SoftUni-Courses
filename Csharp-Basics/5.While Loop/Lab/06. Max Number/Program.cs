@@ -1,7 +1,4 @@
-﻿//Напишете програма, която до получаване на командата "Stop", чете цели числа, въведени от потребителя и намира най-голямото измежду тях.
-//Въвежда се по едно число на ред. 
-
-using System;
+﻿using System;
 
 
 internal class Program
@@ -15,7 +12,9 @@ internal class Program
         {
             int num;
             input = Console.ReadLine();
-            if (input == "Stop") break;
+
+            if (input == "Stop")
+                break;
             else
             {
                 num = int.Parse(input);

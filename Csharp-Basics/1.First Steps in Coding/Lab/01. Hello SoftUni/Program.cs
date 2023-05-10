@@ -1,8 +1,6 @@
-﻿//Напишете конзолна C# програма, която отпечатва текста "Hello SoftUni".
+﻿using System;
 
-using System;
-
-class Program
+internal class Program
 {
     static void Main()
     {

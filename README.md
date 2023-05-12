@@ -63,3 +63,31 @@
 8. [**ExamPreparation**]()
 9. [**FinalExam**]()
  </details>
+ 
+ 
+<h2> Certificates </h2>
+
+<table>
+
+<tr>
+  <th> C# </th>
+</tr>
+
+<tr>
+<td>
+
+| **Course**                                                            | **Link**                                                   |
+| --------------------------------------------------------------------- | ---------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/3513/programming-basics-with-csharp-november-2021" > Programming Basics</a>         | <a href="https://softuni.bg/certificates/details/121527/7ee6e4e3"> Link </a> |
+| <a href="https://softuni.bg/trainings/3729/programming-fundamentals-with-csharp-may-2022"> Fundamentals </a> | <a href="https://softuni.bg/certificates/details/139378/f700e378"> Link </a> |
+| <a href="https://softuni.bg/trainings/3842/csharp-advanced-september-2022"> Advanced </a>                                             | <a href="https://softuni.bg/certificates/details/144040/4f0e998b"> Link </a> |
+| <a href="https://softuni.bg/trainings/3843/csharp-oop-october-2022"> OOP </a>                                                      | <a href="https://softuni.bg/certificates/details/150785/bfd90623"> Link </a> |
+| <a href="https://softuni.bg/trainings/3965/ms-sql-january-2023"> MS SQL Server </a>   | <a href="https://softuni.bg/certificates/details/157803/b4bdd74f"> Link </a> |
+| <a href="https://softuni.bg/trainings/3966/entity-framework-core-february-2023"> Entity Framework Core </a>                         | <a href="https://softuni.bg/certificates/details/164837/3fd379f2"> Link </a> |
+| <a href="https://softuni.bg/trainings/4105/asp-net-fundamentals-may-2023"> ASP.NET Fundamentals </a>                                     | <a href=""> Soon </a> |
+| <a href="https://softuni.bg/trainings/4107/asp-net-advanced-june-2023"> ASP.NET Advanced </a>                                          | <a href=""> Soon </a> |
+
+</td>
+</tr>
+
+</table>

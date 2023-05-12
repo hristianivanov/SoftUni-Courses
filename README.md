@@ -84,8 +84,8 @@
 | <a href="https://softuni.bg/trainings/3843/csharp-oop-october-2022"> OOP </a>                                                      | <a href="https://softuni.bg/certificates/details/150785/bfd90623"> Link </a> |
 | <a href="https://softuni.bg/trainings/3965/ms-sql-january-2023"> MS SQL Server </a>   | <a href="https://softuni.bg/certificates/details/157803/b4bdd74f"> Link </a> |
 | <a href="https://softuni.bg/trainings/3966/entity-framework-core-february-2023"> Entity Framework Core </a>                         | <a href="https://softuni.bg/certificates/details/164837/3fd379f2"> Link </a> |
-| <a href="https://softuni.bg/trainings/4105/asp-net-fundamentals-may-2023"> ASP.NET Fundamentals </a>                                     | <a href=""> Soon </a> |
-| <a href="https://softuni.bg/trainings/4107/asp-net-advanced-june-2023"> ASP.NET Advanced </a>                                          | <a href=""> Soon </a> |
+| <a href="https://softuni.bg/trainings/4105/asp-net-fundamentals-may-2023"> ASP.NET Fundamentals </a>                                     | <a> Soon </a> |
+| <a href="https://softuni.bg/trainings/4107/asp-net-advanced-june-2023"> ASP.NET Advanced </a>                                          | <a> Soon </a> |
 
 </td>
 </tr>

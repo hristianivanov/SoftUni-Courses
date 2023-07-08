@@ -1,0 +1,5 @@
+viewdata is faster
+
+viewdata and viewbad are case insensitive
+
+you can access the same props

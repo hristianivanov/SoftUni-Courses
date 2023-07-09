@@ -5,12 +5,12 @@ namespace ChatApp.Controllers
 {
 	public class ChatController : Controller
 	{
-		private static List<KeyValuePair<string, string>> s_messages
+		private static readonly IList<KeyValuePair<string, string>> s_messages
 		= new List<KeyValuePair<string, string>>();
 
 		public IActionResult Show()
 		{
-			if (s_messages.Count() < 1)
+			if (s_messages.Count < 1)
 			{
 				return View(new ChatViewModel());
 			}

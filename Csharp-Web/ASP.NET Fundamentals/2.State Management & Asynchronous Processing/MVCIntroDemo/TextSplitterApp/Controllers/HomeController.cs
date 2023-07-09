@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using TextSplitterApp.Models;
-
-namespace TextSplitterApp.Controllers
+﻿namespace TextSplitterApp.Controllers
 {
+	using Microsoft.AspNetCore.Mvc;
+
+	using Models;
+
 	public class HomeController : Controller
 	{
 		public IActionResult Index(TextViewModel model)
@@ -14,24 +14,22 @@ namespace TextSplitterApp.Controllers
 		[HttpPost]
 		public IActionResult Split(TextViewModel model)
 		{
+			if (string.IsNullOrWhiteSpace(model.Text))
+			{
+				return RedirectToAction("Index", new TextViewModel()
+				{
+					SplitText = string.Empty,
+					Text = string.Empty
+				});
+			}
+
 			var splitTextArr = model
-				.Text.Split(' ',StringSplitOptions.RemoveEmptyEntries)
+				.Text.Split(' ', StringSplitOptions.RemoveEmptyEntries)
 				.ToArray();
 
 			model.SplitText = string.Join(Environment.NewLine, splitTextArr);
 
-			return RedirectToAction("Index",model);
-		}
-
-		public IActionResult Privacy()
-		{
-			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+			return RedirectToAction("Index", model);
 		}
 	}
 }

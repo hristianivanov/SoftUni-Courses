@@ -30,8 +30,14 @@ namespace TaskBoardApp
 				.AddEntityFrameworkStores<TaskBoardAppDbContext>();
 			builder.Services.AddControllersWithViews();
 
+			builder.Services.ConfigureApplicationCookie(options =>
+			{
+				options.LoginPath = "/Identity/Account/Login";
+			});
+
 			builder.Services.AddScoped<IBoardService, BoardService>();
 			builder.Services.AddScoped<ITaskService, TaskService>();
+			builder.Services.AddScoped<IHomeService, HomeService>();
 
 			var app = builder.Build();
 

@@ -66,5 +66,73 @@
 				return RedirectToAction("All", "Board");
 			}
 		}
+
+		[HttpGet]
+		public async Task<IActionResult> Edit(int id)
+		{
+			try
+			{
+				var taskModel = await taskService.GetForEditByIdAsync(id);
+
+				return View(taskModel);
+			}
+			catch (Exception)
+			{
+				return RedirectToAction("All", "Board");
+			}
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Edit(int id, TaskFormModel taskModel)
+		{
+			if (!ModelState.IsValid)
+			{
+				return View(taskModel);
+			}
+
+			try
+			{
+				await taskService.EditByIdAsync(id,taskModel);
+			}
+			catch (Exception)
+			{
+				ModelState.AddModelError(string.Empty, "Unexpected error occurred while updating your post!");
+
+				return View(taskModel);
+			}
+
+			return RedirectToAction("All", "Board");
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> Delete(int id)
+		{
+			try
+			{
+				var taskModel = await taskService.GetForDeleteByIdAsync(id);
+
+				return View(taskModel);
+			}
+			catch (Exception)
+			{
+				return RedirectToAction("All", "Board");
+			}
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Delete(int id, TaskViewModel taskModel)
+		{
+			try
+			{
+				await taskService.DeleteByIdAsync(id);
+			}
+			catch (Exception)
+			{
+				ModelState.AddModelError(string.Empty, "Unexpected error occurred while deleting your post!");
+				return View(taskModel);
+			}
+
+			return RedirectToAction("All", "Board");
+		}
 	}
 }

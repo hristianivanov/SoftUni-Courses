@@ -71,6 +71,7 @@
 
 <tr>
   <th> C# </th>
+  <th> Front-End </th>
 </tr>
 
 <tr>
@@ -88,6 +89,15 @@
 | <a href="https://softuni.bg/trainings/4107/asp-net-advanced-june-2023"> ASP.NET Advanced </a>                             | <a href="https://softuni.bg/certificates/details/182232/c9bd5c5b"> Link </a> |
 
 </td>
+
+<td>
+
+| **Course**                                                                               | **Link**                                                                    |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <a href=""> HTML & CSS </a> | <a> Soon </a> |
+
+</td>
+
 </tr>
 
 </table>

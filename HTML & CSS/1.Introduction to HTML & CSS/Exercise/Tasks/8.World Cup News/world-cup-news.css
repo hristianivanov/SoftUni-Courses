@@ -1,0 +1,31 @@
+img{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+main ul{
+    list-style: none;
+}
+
+main ul li{
+    width: 595px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #000;
+}
+
+.text{
+    color: #3f51ba;
+    font-weight: bold;
+}
+
+#wrapper{
+    width: 700px;
+    height: 730px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background-color: #a6e1ec;   
+}

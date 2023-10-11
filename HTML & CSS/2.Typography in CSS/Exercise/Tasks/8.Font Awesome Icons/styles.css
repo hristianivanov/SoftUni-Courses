@@ -1,0 +1,47 @@
+body{
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial,sans-serif;
+}
+
+nav{
+    width: 200px;
+    border: solid 1px #e3e3ee;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #f5f4f5;
+}
+
+nav > ul{
+    list-style: none;
+    line-height: 25px;
+    margin-left: -15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #c83025;
+}
+
+nav ul li a i{
+    width: 1.14em;
+    padding-right: 0.28em;
+}
+
+button{
+    padding: 4px 12px;
+    line-height: 20px;
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.shopping{
+    background-color: #83a94c;
+}
+
+.info{
+    background-color: #008ed0;
+}
+
+.delete{
+    background-color: #cc4036;
+}

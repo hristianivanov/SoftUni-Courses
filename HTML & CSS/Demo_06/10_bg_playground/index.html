@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            height: 100vh;
+            position: relative;
+        }
+
+        .container:nth-child(1) {
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+        }
+
+        .container:nth-child(2) {
+            background: linear-gradient(90deg, rgba(0,193,194,1) 0%, rgba(0,255,109,1) 100%);
+        }
+
+        .card {
+            width: 10em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 0.3em;
+            overflow: hidden;
+            border: 1px solid rgb(255,255,255,0.5);
+            box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .card .inner-shadow {
+            display: block;
+            background: rgb(0,0,0,0.2);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5) inset;
+            opacity: 1;
+            transition: opacity 0.3s ease-in;
+        }
+
+        .card:hover .inner-shadow {
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <section class="card">
+            <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="">
+            <div class="inner-shadow"></div>
+        </section>
+
+    </div>
+
+    <div class="container">
+
+        <section class="card">
+            <img src="https://images.unsplash.com/photo-1557456170-0cf4f4d0d362?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="">
+            <div class="inner-shadow"></div>
+        </section>
+
+    </div>
+
+</body>
+</html>

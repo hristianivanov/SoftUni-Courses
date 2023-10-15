@@ -1,0 +1,47 @@
+body {
+    background: #eee;
+}
+
+.margin {
+    background: orange;
+    padding: 1em;
+}
+
+.border {
+    padding: 0.5em;
+    background: lightgreen;
+}
+
+.padding {
+    padding: 1em;
+    background: greenyellow;
+}
+
+.box {
+    background: lightblue;
+    padding: 1em;
+}
+
+.box2 {
+    margin: 1em 0 0 0;
+    margin: 1em 0;
+    
+    margin: 0 0 0 1em;
+    margin-left: 1em;
+    margin-inline-start: 1em;
+    
+    margin-block: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+    margin-inline: 1em;
+
+    padding: 1em 0 0 0;
+    padding: 0 0 0 1em;
+    padding: 1em 0;
+
+    padding-block: 1em;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+

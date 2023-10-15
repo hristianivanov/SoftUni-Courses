@@ -1,0 +1,22 @@
+.ar-16x9 {
+    overflow: hidden;
+    background: #000;
+    position: relative;
+    border: 2px solid greenyellow;
+}
+
+.ar-16x9:after {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.ar-16x9 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}

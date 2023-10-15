@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    background: #666;
+    width: 50%;
+    position: fixed;
+    padding: 1em;
+    right: 0;
+    bottom: 0;
+}
+
+.box {
+    display: inline-block;
+    width: 23.3%;
+    padding: 1em;
+    background: red;
+    /* margin: 0.5em; */
+}
+
+.box:nth-child(2) {
+    background: green;
+    position: absolute;
+    opacity: 0.5;
+    bottom: 0;
+    left: 0;
+}

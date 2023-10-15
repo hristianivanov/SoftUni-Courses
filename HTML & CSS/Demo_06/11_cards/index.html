@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 2em;
+        }
+
+        .card {
+            display: block;
+            width: 10em;
+            overflow: hidden;
+            border-radius: 0.5em;
+            border: 1px solid #CCC;
+        }
+
+        .card img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .card .content {
+            padding: 1em;
+        }
+
+        .card h3, .card p {
+            margin: 0;
+        }
+
+        .media {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .media .after {
+            padding-top: 56.25%;
+        }
+
+        .media img {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="media">
+            <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="">
+            <div class="after"></div>
+        </div>
+        <div class="content">
+            <h3>This is the title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

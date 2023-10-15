@@ -1,0 +1,9 @@
+.slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide [class^="ar-"] {
+    max-width: 30em;
+    margin: 0 auto;
+}

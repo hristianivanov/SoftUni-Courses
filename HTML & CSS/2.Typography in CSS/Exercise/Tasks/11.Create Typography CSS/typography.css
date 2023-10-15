@@ -1,0 +1,102 @@
+html {
+    font: 16px/1.5 Helvetica,sans-serif;
+}
+
+body, table, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.4em;
+    font-weight: normal;
+}
+
+h1 { font-size: 3.0em; }
+h2 { font-size: 2.4em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; font-weight: bold; }
+h6 { font-size: 1em; font-weight: bold; }
+
+h1:first-of-type {
+    margin-top: 1em;
+}
+
+hr {
+    margin: 1.4em auto;
+    border: 2px solid #ccc;
+    border-radius: 0.2em;
+}
+
+ul {
+    list-style: square;
+}
+
+ul ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
+
+p, * + ul, * + ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol, blockquote {
+    padding-left: 1.5em;
+}
+
+
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left: 4px solid #CCC;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    color: #666;
+}
+
+blockquote p:first-child:before,
+blockquote:has(.author) p:nth-last-child(2):not(.author):after,
+blockquote p:nth-last-child(1):not(.author):after {
+    display: inline-block;
+    content: '"';
+}
+
+blockquote p.author {
+    text-align: right;
+    color: #111;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: '— ';
+    padding-right: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+table, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5em 0.7em;
+}
+
+table thead th {
+    background: #ddd;
+}
+
+table tbody tr:nth-child(odd) td {
+  background: rgba(0, 0, 0, 0.05);
+}

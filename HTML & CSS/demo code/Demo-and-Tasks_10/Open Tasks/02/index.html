@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site Layout</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1em;
+            gap: 1em;
+        }
+
+        body > * {
+            background: lightblue;
+            padding: 1em;
+            border-radius: 0.3em;
+        }
+
+        header, footer {
+            flex: 1 1 100%;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        main {
+            flex: 1 1 70%;
+        }
+
+        aside {
+            flex: 1 1 25%;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav li {
+            display: block;
+        }
+
+        nav a {
+            display: block;
+            padding: 1em 1.5em;
+        }
+
+        @media (max-width: 500px) {
+            body {
+                flex-direction: column;
+            }
+
+            nav ul,
+            header {
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tasks: 6</h2>
+        <ul>
+            <li>Open: 3</li>
+            <li>In Progress: 1</li>
+            <li>Done: 2</li>
+        </ul>
+    </main>
+
+    <aside>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Create</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Task Board</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.site {
+    max-width:60em;
+    margin: 2em auto;
+}
+
+.site-header {
+    padding: 1em 0;
+    border-bottom: 3px solid rgb(84, 84, 84);
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.site-title {
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    line-height: 1;
+}
+
+.main-nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 35%;
+    transform: translateY(-50%);
+}
+
+.site-title a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+}
+
+.main-nav a {
+    margin: 0 0.6em;
+}

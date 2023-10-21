@@ -1,0 +1,47 @@
+body {
+    padding: 2em;
+}
+
+.site {
+    /* max-width: 50em; */
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3498db;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 0.3em;
+    position: relative;
+}
+
+.site-title {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #3498db;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    border-radius: 0.3em;
+}
+
+.site-footer p {
+    padding: 0;
+}
+
+.site-content {
+        max-width: 50em;
+        margin: 0 auto;
+}

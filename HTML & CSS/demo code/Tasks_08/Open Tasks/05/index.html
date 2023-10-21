@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation - Flexbox</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font: 16px/1.5 Verdana, sans-serif;
+        }
+
+        body {
+            padding: 4em;
+        }
+
+        p {
+            padding-bottom: 1.5em;
+        }
+
+        h2 {
+            font-family: Georgia, serif;
+        }
+
+        header {
+            border-bottom: 2px solid black;
+            display: flex;
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+            align-items: center;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1em;
+        }
+
+        nav ul li {
+            display: block;
+            list-style: none outside;        
+        }
+
+        nav a {
+            color: rgb(0,153, 0);
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Site Title</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Heading level 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate facere vero illum molestias fuga maxime, recusandae libero nostrum delectus aliquam numquam quos veniam necessitatibus praesentium similique deserunt. Quas, ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate facere vero illum molestias fuga maxime, recusandae libero nostrum delectus aliquam numquam quos veniam necessitatibus praesentium similique deserunt. Quas, ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate facere vero illum molestias fuga maxime, recusandae libero nostrum delectus aliquam numquam quos veniam necessitatibus praesentium similique deserunt. Quas, ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate facere vero illum molestias fuga maxime, recusandae libero nostrum delectus aliquam numquam quos veniam necessitatibus praesentium similique deserunt. Quas, ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate facere vero illum molestias fuga maxime, recusandae libero nostrum delectus aliquam numquam quos veniam necessitatibus praesentium similique deserunt. Quas, ratione.</p>
+    </main>
+
+</body>
+</html>

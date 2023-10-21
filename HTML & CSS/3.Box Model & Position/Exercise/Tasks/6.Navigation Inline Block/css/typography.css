@@ -1,0 +1,15 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body, input, textarea {
+    font: inherit
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}

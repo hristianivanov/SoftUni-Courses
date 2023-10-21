@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+    <style>
+
+        body {
+            background: #EEE;           
+        }
+
+        .container {
+            width: 200px;
+            height: 200px;
+            background: #369;
+        }
+
+        @media (min-width: 600px) { /* Mobile styling */
+            body {
+                background: lightgreen;
+            }
+
+            .container {
+                background: darkblue;
+            }
+        }
+
+        @media (min-width: 1100px) { /* Desktop styling */
+            body {
+                background: white;
+            }
+            
+            .container {
+                background: black;
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+    
+    <div class="container"></div>
+
+</body>
+</html>

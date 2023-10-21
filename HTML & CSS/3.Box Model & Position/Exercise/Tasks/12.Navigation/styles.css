@@ -1,0 +1,147 @@
+:root {
+    --anchors:rgb(0,102,0);
+    --body-bg:rgb(238, 238, 238);
+    --img-bg:rgb(255, 255, 255);
+    --img-box-shadow:rgba(0, 0, 0, 0.25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 16px/1.5 Verdana, sans-serif;
+    background: var(--body-bg);
+    display: flex;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: 1em/1.2 Georgia, serif;
+}
+
+h2, h3 {
+    margin-bottom: 1em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+ul a {
+    color: var(--anchors);
+}
+
+article blockquote {
+    padding-left: 2em;
+    border-left: 2px solid #bbb;
+    opacity: 0.5;
+    width: 50%;
+    margin-left: 2em;
+    float: right;
+}
+
+article blockquote p {
+    font-style: italic;
+}
+
+article blockquote p:last-child {
+    text-align: end;
+}
+
+.page {
+    position: relative;
+    margin: 4em auto;
+    max-width: 80vw;
+}
+
+.page .content {
+    margin: 0 auto 0 0 ;
+    max-width: 70%;
+}
+
+.page aside {
+    position: absolute;
+    top: 6%;
+    right: 5em;
+}
+
+.page aside h3 {
+    font-size: 20px;
+}
+
+.content main article:not(:last-child) {
+    margin-bottom: 3em;
+}
+
+.page aside ul {
+    padding-left: 2em;
+}
+
+.page aside h3:last-of-type {
+    margin-top: 2em;
+}
+
+.page header  {
+    display: flex;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid black;
+}
+
+.page > main {
+    flex: 1 1 70%;
+}
+
+.page > aside {
+    flex: 1 1 30%;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+aside ul li a,
+nav a {
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+nav ul li {
+    display: block;
+    list-style: none outside;
+}
+
+img[class*=align] {
+    display: block;   
+    padding: 0.5em;
+    background: var(--img-bg);
+    border: 4px solid black;
+    box-shadow: 0 0 1em 0.2em var(--img-box-shadow);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}

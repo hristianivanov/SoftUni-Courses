@@ -1,0 +1,55 @@
+body {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-position: center 0em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100em;
+    margin: 0 auto;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.features .container {
+    padding: 3em;
+    padding-bottom: 3em;
+}
+
+.features .container .content {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.sponsors-and-partners .container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsors-icons {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.site-logo {
+    max-width: 7em;
+}
+
+.main-nav {
+    display: flex;
+}

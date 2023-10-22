@@ -1,0 +1,33 @@
+.sponsors-and-partners {
+    background-color: #fff;
+    border-top: 2px solid #eee;
+    /* box-shadow: 0 0 0.3em 0.5em rgba(0, 0, 0, 0.2); */
+}
+
+.sponsors-and-partners h3,
+.sponsors-and-partners p {
+    text-align: center;
+    color: #9CA2B1;
+}
+
+.sponsors-and-partners h3 {
+    font-weight: normal;
+    font-size: 4em;
+    color: #AD7C54;
+}
+
+.sponsors-and-partners p {
+    font-size: 1.5em;
+    margin: 2em 0;
+}
+
+.sponsors-icons li img {
+    width: 8em;
+}
+
+.sponsors-icons li {
+    display: block;  
+    border-radius: 50%;
+    background: #CCC;
+    padding: 2em;
+}

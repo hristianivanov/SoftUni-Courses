@@ -1,0 +1,51 @@
+.site-footer {
+    background-color: #171720
+}
+
+.site-footer .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5em;
+}
+
+.column li,
+.column a {
+    display: block;
+    text-decoration: none;
+}
+
+.column a {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #7C7470;
+    margin: 1em 0;
+}
+
+.column h5 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.site-footer .container p {
+    padding: 1em 0;
+    font-size: 1.3em;
+    color:  #7C7470;
+    margin-left: 3.2em;
+}
+
+.bottom {
+    border-top: 2px solid #212129;
+}
+
+.bottom p {
+    padding: 1em 0;
+    font-size: 1.3em;
+    color:  #7C7470;
+    margin-left: 33em;
+}

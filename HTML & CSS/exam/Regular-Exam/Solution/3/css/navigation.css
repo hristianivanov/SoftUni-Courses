@@ -1,0 +1,35 @@
+.site-header {
+    padding: 1em 0;
+}
+
+.site-header .container {
+    width: 99vw;
+    padding: 0.8em 4em;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+    font-size: 1.3em;
+}
+
+.main-nav a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.site-header p {
+    display: none;
+}
+
+

@@ -1,0 +1,27 @@
+.features {
+    background: #fff;
+}
+
+.content article h3 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.content article p{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.content article a {
+    text-decoration: none;
+}
+
+.button {
+    color: #9E856F;
+    border: 2px solid #9E856F;;
+    padding: 0.5em 1em;
+}
+
+.cta {
+    margin-top: 2em;
+}

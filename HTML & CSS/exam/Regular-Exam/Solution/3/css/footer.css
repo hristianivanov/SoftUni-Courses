@@ -39,13 +39,12 @@
     margin-left: 3.2em;
 }
 
-.bottom {
+.bottom-bar {
     border-top: 2px solid #212129;
 }
 
-.bottom p {
+.bottom-bar .container p {
     padding: 1em 0;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color:  #7C7470;
-    margin-left: 33em;
 }

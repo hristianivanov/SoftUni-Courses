@@ -40,6 +40,10 @@ img {
     flex-direction: column;
 }
 
+.site-footer .bottom-bar .container {
+    padding: 0;
+}
+
 .sponsors-icons {
     display: flex;
     justify-content: center;

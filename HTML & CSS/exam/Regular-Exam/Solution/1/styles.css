@@ -37,6 +37,7 @@ img {
     flex: 1 1 55%;
     padding-left: 1em;
 }
+
 .content header {
     text-transform: uppercase;
     font-size: 1.2em;
@@ -46,6 +47,7 @@ img {
 .description {
     margin-bottom: 2em;
 }
+
 .description h2 {
     color: #fff;
     margin: 0.5em 0;

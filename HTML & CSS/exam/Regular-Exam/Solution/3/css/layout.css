@@ -50,10 +50,6 @@ img {
     gap: 5em;
 }
 
-.site-logo {
-    max-width: 7em;
-}
-
 .main-nav {
     display: flex;
 }

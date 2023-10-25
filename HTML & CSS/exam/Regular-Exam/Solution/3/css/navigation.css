@@ -2,6 +2,10 @@
     padding: 1em 0;
 }
 
+.site-logo {
+    max-width: 7em;
+}
+
 .site-header .container {
     width: 99vw;
     padding: 0.8em 4em;
@@ -26,7 +30,6 @@
 .main-nav a:hover {
     text-decoration: underline;
 }
-
 
 .site-header p {
     display: none;

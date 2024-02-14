@@ -1,63 +1,52 @@
-function solve(inputArr) {
+function removeImageBackground(image) {
+    return new Promise(function(resolve, reject) {
+        const backgroundColor = { red: 255, green: 255, blue: 255 };
+        const threshold = 10;
 
-    const n = Number(inputArr.shift());
+        const imageElement = new Image();
 
-    let barmans = [];
+        // Set up event listeners
+        imageElement.onload = function() {
+            var canvas = document.createElement('canvas');
+            canvas.width = imageElement.naturalWidth;
+            canvas.height = imageElement.naturalHeight;
 
-    for (let i = 0; i < n; i++) {
-        const line = inputArr.shift();
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(imageElement, 0, 0);
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            for (var i = 0; i < imageData.data.length; i += 4) {
+                const red = imageData.data[i];
+                const green = imageData.data[i + 1];
+                const blue = imageData.data[i + 2];
+                if (
+                    Math.abs(red - backgroundColor.red) < threshold &&
+                    Math.abs(green - backgroundColor.green) < threshold &&
+                    Math.abs(blue - backgroundColor.blue) < threshold
+                ) {
+                    imageData.data[i + 3] = 0;
+                }
+            }
 
-        const [name, shift, ...coffesArgs] = line.split(' ');
-        const coffes = coffesArgs.toString().split(',');
-
-        let barman = {
-            name, shift, coffes
+            ctx.putImageData(imageData, 0, 0);
+            resolve(canvas.toDataURL('image/png'));
         };
 
-        barmans.push(barman);
-    }
+        imageElement.onerror = function() {
+            reject(new Error('Error loading image: ' + image));
+        };
 
-    while ((line = inputArr.shift().toString()) !== 'Closed') {
-
-        const [command, ...args] = line.split(' / ');
-
-        switch (command) {
-            case "Prepare": barmanPrepare(args[0], args[1], args[2]); break;
-            case "Change Shift": barmanShift(args[0],args[1]); break;
-            case "Learn": barmanLearn(args[0],args[1],args[2]);break;
-        }
-    }
-
-    for (const barman of barmans) {
-        console.log(`Barista: ${barman.name}, Shift: ${barman.shift}, Drinks: ${barman.coffes.join(', ')}`)
-    }
-
-    function barmanLearn(name,newCoffeType) {
-        let barman = barmans.find(b => b.name === name);
-
-        if (barman.coffes.find(c => c === newCoffeType)) {
-            console.log(`${barman.name} knows how to make ${newCoffeType}.`)
-        } else {
-            barman.coffes.push(newCoffeType);
-            console.log(`${barman.name} has learned a new coffee type: ${newCoffeType}.`)
-        }
-    }
-    function barmanShift(name,newShift){
-        let barman = barmans.find(b => b.name === name);
-        barman.shift = newShift;
-        console.log(`${barman.name} has updated his shift to: ${newShift}`)
-    }
-    function barmanPrepare(name, shift, coffeType) {
-        let barman = barmans.find(b => b.name === name);
-
-        if (barman.shift === shift &&
-        barman.coffes.find(c => c === coffeType)) {
-            console.log(`${barman.name} has prepared a ${coffeType} for you!`)
-        } else {
-            console.log(`${barman.name} is not available to prepare a ${coffeType}.`)
-        }
-    }
+        imageElement.src = image;
+    });
 }
 
+const imageUrl = 'https://thumbs.dreamstime.com/b/red-apple-isolated-white-background-45573196.jpg';
 
-    console.log(Number(true))
+removeImageBackground(imageUrl)
+    .then(function(result) {
+        console.log('Background removed:', result);
+        // Use the result as needed
+    })
+    .catch(function(error) {
+        console.error('Error:', error.message);
+        // Handle the error, if needed
+    });

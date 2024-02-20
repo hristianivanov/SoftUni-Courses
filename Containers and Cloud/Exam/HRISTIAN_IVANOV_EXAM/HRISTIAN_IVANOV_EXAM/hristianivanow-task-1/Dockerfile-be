@@ -1,0 +1,20 @@
+# Start from lastest NODE image
+FROM node
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package json file inside the docker container
+COPY package.json .
+
+# Install the package.json dependencies
+RUN npm install
+
+# Copy all the backend files inside the docker container
+COPY . .
+
+# Specify the exposed port
+EXPOSE 80
+
+# Set the starting script once the container is started
+CMD [ "npm", "start" ]

@@ -1,0 +1,76 @@
+{
+    "datasource": {
+      "type": "prometheus",
+      "uid": "ff3bce9f-26f8-4376-b3ce-3bcbda45b506"
+    },
+    "fieldConfig": {
+      "defaults": {
+        "custom": {
+          "lineWidth": 1,
+          "fillOpacity": 80,
+          "gradientMode": "none",
+          "hideFrom": {
+            "tooltip": false,
+            "viz": false,
+            "legend": false
+          }
+        },
+        "unitScale": true,
+        "color": {
+          "mode": "thresholds"
+        },
+        "mappings": [],
+        "thresholds": {
+          "mode": "absolute",
+          "steps": [
+            {
+              "color": "green",
+              "value": null
+            },
+            {
+              "color": "red",
+              "value": 80
+            }
+          ]
+        }
+      },
+      "overrides": []
+    },
+    "gridPos": {
+      "h": 8,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "id": 1,
+    "options": {
+      "bucketOffset": 0,
+      "legend": {
+        "showLegend": true,
+        "displayMode": "list",
+        "placement": "bottom",
+        "calcs": []
+      }
+    },
+    "targets": [
+      {
+        "datasource": {
+          "type": "prometheus",
+          "uid": "ff3bce9f-26f8-4376-b3ce-3bcbda45b506"
+        },
+        "disableTextWrap": false,
+        "editorMode": "builder",
+        "expr": "probe_http_status_code",
+        "fullMetaSearch": false,
+        "hide": false,
+        "includeNullMetadata": true,
+        "instant": false,
+        "legendFormat": "__auto",
+        "range": true,
+        "refId": "A",
+        "useBackend": false
+      }
+    ],
+    "title": "HTTP STATUS CODE",
+    "type": "histogram"
+  }

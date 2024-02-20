@@ -1,0 +1,10 @@
+groups:
+  - name: WebSite unresponsive
+    rules:
+      - alert: HttpsStatusCodeNotOK
+        expr: probe_http_status_code != 200
+        for: 10s
+        labels:
+          severity: critical
+        annotations:
+          summary: "HTTP status code is not 200 OK"

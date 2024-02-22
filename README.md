@@ -72,6 +72,7 @@
 <tr>
   <th> C# </th>
   <th> Front-End </th>
+  <th> DevOps </th>
 </tr>
 
 <tr>
@@ -96,6 +97,15 @@
 | ----------------------------------------------------------------------------------------              | ---------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/4239/html-and-css-september-2023"> HTML & CSS </a>              | <a href="https://softuni.bg/certificates/details/190966/b6008c36"> Link </a> |
 | <a href="https://softuni.bg/trainings/4240/js-front-end-october-2023"> JS Front-End </a>              | <a href="https://softuni.bg/certificates/details/199260/3f6d8c16"> Link </a> |
+
+</td>
+
+<td>
+
+| **Course**                                                                                                                         | **Link**                                                                     |
+| ----------------------------------------------------------------------------------------                                           | ---------------------------------------------------------------------------- |
+| <a href="https://softuni.bg/trainings/4359/containers-and-cloud-january-2024"> Containers and Cloud </a>                           | <a > Soon </a> |
+| <a href="https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024"> Software Engineering and DevOps </a>    | <a > Soon </a> |
 
 </td>
 

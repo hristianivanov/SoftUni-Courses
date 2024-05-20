@@ -105,8 +105,8 @@
 
 | **Course**                                                                                                                         | **Link**                                                                     |
 | ----------------------------------------------------------------------------------------                                           | ---------------------------------------------------------------------------- |
-| <a href="https://softuni.bg/trainings/4359/containers-and-cloud-january-2024"> Containers and Cloud </a>                           | <a > Soon </a> |
-| <a href="https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024"> DevOps </a>    | <a > Soon </a> |
+| <a href="https://softuni.bg/trainings/4359/containers-and-cloud-january-2024"> Containers and Cloud </a>                           | <a href="https://softuni.bg/certificates/details/206958/52dc05d1"> Link </a> |
+| <a href="https://softuni.bg/trainings/4360/software-engineering-and-devops-february-2024"> DevOps </a>                             | <a href="https://softuni.bg/certificates/details/213325/f05a8ae9" > Link </a> |
 
 </td>
 

@@ -1,0 +1,7 @@
+npm init -y // creates package json file
+npm install -D/--save-dev // installs the package like devoloper dependency
+
+There is noscript html tag that will appear if js files for some reason disappeared
+
+Компилирането е превеждането от език на едно нуво към език на друго ниво, а
+транспилиране е от един език на едно ниво на език от същото ниво

@@ -97,7 +97,7 @@
 | ----------------------------------------------------------------------------------------              | ---------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/4239/html-and-css-september-2023"> HTML & CSS </a>              | <a href="https://softuni.bg/certificates/details/190966/b6008c36"> Link </a> |
 | <a href="https://softuni.bg/trainings/4240/js-front-end-october-2023"> JS Front-End </a>              | <a href="https://softuni.bg/certificates/details/199260/3f6d8c16"> Link </a> |
-| <a href=""> ReactJS </a>                                                                              | <a > Soon </a> |
+| <a href="https://softuni.bg/trainings/4529/reactjs-june-2024"> ReactJS </a>                                                                              | <a > Soon </a> |
 
 </td>
 

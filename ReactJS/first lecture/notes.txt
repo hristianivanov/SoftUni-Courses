@@ -5,3 +5,22 @@ There is noscript html tag that will appear if js files for some reason disappea
 
 Компилирането е превеждането от език на едно нуво към език на друго ниво, а
 транспилиране е от един език на едно ниво на език от същото ниво
+
+npm create vite . -- --template react
+
+CTRL + SHIFT + L
+
+https://www.youtube.com/watch?v=w3cP5Qd8cjk
+
+REMINDER :
+
+yettel HBO
+EMAG Genious
+linkedin
+
+2bfdbfebddc94a0096dea568162c56e2
+
+createGame/GameCreate … game create cause create game would be better for function
+
+
+Hello, I am Hristian fresh out of high school enthusiastic and highly motivated to venture into a real work environment. I chose you for my first job and I will be happy to make it a reality. The knowledge I have acquired in school and additional lessons on the Internet are in the field of .Net , C#. If you would like to contribute with me or need more information about my skills, please feel free to text me anytime. Thank you, and have a nice and successful working day!
